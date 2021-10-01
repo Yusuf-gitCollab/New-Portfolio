@@ -35,9 +35,14 @@
   p {
     line-height: 1.6;
   }
+
+  img {
+    width: 100%;
+  }
   
   .container {
-    max-width: 1600px;
+    max-width: 1700px;
+    padding: 0px 40px;
     margin: 0 auto;
   }
   
@@ -108,7 +113,7 @@
   
   .logo {
     font-family: var(--font-logo);
-    font-size: 1.6rem;
+    font-size: 1.1rem;
     align-self: end;
   }
   
@@ -116,13 +121,15 @@
     position: relative;
     width: 100%;
     background: var(--banner-bg);
+    padding-top: 30px;
   }
   
   .grid {
     font-family: var(--font-robo);
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-gap: 45px;
+    grid-template-areas: "text  img";
+    grid-gap: 20px;
     padding: 2.7rem 0;
     z-index: 1000;
   }
@@ -135,12 +142,11 @@
      color: var(--light-white);
      font-size: 1.1rem;
      padding: 0 0 4rem;
-   
+    grid-area: text;
   }
   
   .landing-page-intro .first-line-decor {
     font-size: 1.4rem;
-    letter-spacing: 0.09em;
     color: var(--green);
     padding: 1rem 0px;
   }
@@ -173,7 +179,6 @@
   
   .about .grid {
     grid-template-columns: 2fr 3fr;
-    align-items: center;
   }
   
   .about-me-text p{
