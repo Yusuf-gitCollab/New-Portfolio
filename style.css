@@ -1,7 +1,7 @@
 :root {
     --banner-bg: #000;
     --body-bg: #18191a;
-    --white: #efefef;
+    --white: #e2e2e2;
     --light-white: #a2a3a3;
     --red: #ed462f;
     --green: #11cc9e;
@@ -39,7 +39,7 @@
   img {
     width: 100%;
   }
-  
+
   .container {
     max-width: 1700px;
     padding: 0px 40px;
@@ -121,7 +121,7 @@
     position: relative;
     width: 100%;
     background: var(--banner-bg);
-    padding-top: 30px;
+    padding-top: 75px;
   }
   
   .grid {
@@ -274,4 +274,23 @@
   
   .socials a {
     margin: 10px;
+  }
+
+  @media screen and (max-width: 912px) {
+    .navlinks{
+      display: none;
+    }
+
+    .landing-page {
+      position: relative;
+      width: 100%;
+      background: var(--banner-bg);
+      padding: 75px 0;
+    }
+
+    .grid {
+      display: flex;
+      flex-direction: column;
+      padding: 2.7rem 0;
+    }
   }
