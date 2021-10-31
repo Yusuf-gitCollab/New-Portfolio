@@ -168,14 +168,7 @@
   .about-me-text{
     justify-self: flex-end;
   }
-  
-  .about h1{
-    font-size: 50px;
-    text-align: center;
-    color: var(--dark-blue);
-    margin-bottom: 25px;
-  }
-  
+    
   .about .grid {
     grid-template-columns: 2fr 3fr;
   }
@@ -256,6 +249,44 @@
       width: 0%;
     }
   }
+
+  /* Projects */
+  .projects {
+    padding: 40px 0px;
+  }
+
+  .card {
+    max-width: 450px;
+    background: black;
+    border-radius: 10px;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.582),
+                -10px -10px 16px rgba(0, 0, 0, 0.582);
+  }
+
+  .grid-row {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px 0px;
+  }
+
+  .description {
+    padding: 40px;
+    text-align: center;
+  }
+
+  .description h3 {
+    color: var(--blue);
+    padding: 20px 0;
+    
+  }
+
+  .description p {
+    padding: 10px 0 20px;
+  }
+
+
+
+  /* footer */
   
   footer {
     padding: 0px 10px 80px;
