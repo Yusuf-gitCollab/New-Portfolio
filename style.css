@@ -30,7 +30,7 @@
     background: var(--body-bg);
     color: var(--white);
     font-family: var(--font-robo);
-    overflow-x: hidden ;
+    overflow-x: hidden;
   }
   
   p {
@@ -260,9 +260,6 @@
   footer {
     padding: 0px 10px 80px;
     background: var(--banner-bg);
-  }
-  
-  footer .container {
     text-align: center;
   }
   
@@ -346,12 +343,20 @@
     }
   }
 
-  @media screen and (max-width: 920px) {
+  @media screen and (max-width: 720px) {
     #logo {
       font-size: 27px;
     }
 
+    .container {
+      padding: 0 25px;
+    }
+
     .heading {
       font-size: 35px;
+    }
+
+    .skills-div {
+      padding: 0;
     }
   }
