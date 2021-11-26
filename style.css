@@ -11,6 +11,10 @@
     --font-robo: 'Roboto', sans-serif;
     --font-logo: 'Architects Daughter', cursive;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
   
   * {
     padding: 0;
